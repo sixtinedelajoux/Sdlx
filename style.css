@@ -235,7 +235,7 @@ h3 {
   padding: 6rem 2rem;
 }
 
-.valise-section > * {
+.valise-section > *:not(.categories) {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -256,11 +256,14 @@ h3 {
 }
 
 .valise-bloc li {
-  font-size: 0.95rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.15rem;
   color: var(--dark);
   padding-left: 1.2rem;
   position: relative;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .valise-bloc li::before {
