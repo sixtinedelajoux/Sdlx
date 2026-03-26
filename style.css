@@ -2,12 +2,13 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --cream:     #faf7f2;
+  --cream:     #f5f3f0;
   --sand:      #e8ddd0;
-  --terracotta:#c97c5d;
-  --rose:      #d4a090;
-  --dark:      #2a2420;
-  --muted:     #9a8a80;
+  --terracotta:#7aafc2;
+  --rose:      #aacfdf;
+  --dark:      #2e1a0e;
+  --muted:     #8a7a6a;
+  --lavender:  #ddd4ec;
 }
 
 html { scroll-behavior: smooth; }
@@ -31,11 +32,12 @@ body {
 }
 
 h1 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(3rem, 8vw, 6rem);
-  font-weight: 200;
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  font-family: 'Bodoni Moda', serif;
+  font-size: clamp(3.5rem, 10vw, 7rem);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1;
+  letter-spacing: -0.02em;
 }
 
 h1 em {
@@ -44,10 +46,11 @@ h1 em {
 }
 
 h2 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Bodoni Moda', serif;
   font-size: clamp(1.8rem, 4vw, 2.5rem);
-  font-weight: 200;
-  letter-spacing: -0.02em;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: -0.01em;
   margin-bottom: 2.5rem;
 }
 
@@ -72,9 +75,10 @@ h3 {
 
 .subtitle {
   margin-top: 1.5rem;
-  font-size: 1rem;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 1.8rem;
   color: var(--muted);
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* ---- COUNTDOWN ---- */
@@ -104,10 +108,10 @@ h3 {
 }
 
 .unit span {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Bodoni Moda', serif;
   font-size: clamp(3rem, 8vw, 5rem);
-  font-weight: 200;
-  letter-spacing: -0.03em;
+  font-weight: 300;
+  letter-spacing: -0.02em;
   line-height: 1;
 }
 
@@ -181,17 +185,15 @@ h3 {
   text-align: center;
   color: var(--muted);
   margin-top: 0.8rem;
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 1.1rem;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 1.6rem;
 }
 
 /* Photo upload placeholder */
 .photo-placeholder {
   width: 100%;
   aspect-ratio: 4/3;
-  background: var(--sand);
+  background: var(--lavender);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -256,10 +258,10 @@ h3 {
 }
 
 .valise-bloc li {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Bodoni Moda', serif;
   font-style: italic;
   font-weight: 300;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   color: var(--dark);
   padding-left: 1.2rem;
   position: relative;
