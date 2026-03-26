@@ -125,8 +125,8 @@ h3 {
 
 /* ---- GANG ---- */
 .gang-section {
-  padding: 6rem 2rem;
-  max-width: 1000px;
+  padding: 3rem 2rem 2rem;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -140,7 +140,7 @@ h3 {
 
 .polaroid {
   background: #fff;
-  padding: 0.8rem 0.8rem 2.5rem;
+  padding: 0.8rem 0.8rem 1.5rem;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: default;
@@ -152,8 +152,10 @@ h3 {
 }
 
 .polaroid.big {
-  flex: 1 1 280px;
-  transform: rotate(-1.5deg);
+  flex: 1 1 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  transform: rotate(-1deg);
 }
 
 .polaroid:not(.big) {
