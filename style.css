@@ -6,7 +6,7 @@
   --sand:      #dce8f0;
   --terracotta:#4a8fa8;
   --rose:      #7ab8cc;
-  --dark:      #7a4a2e;
+  --dark:      #b07850;
   --muted:     #7a6a5a;
   --lavender:  #ddd4ec;
 }
@@ -73,7 +73,7 @@ h3 {
 .subtitle {
   margin-top: 1.5rem;
   font-family: 'Pinyon Script', cursive;
-  font-size: clamp(1rem, 4vw, 1.5rem);
+  font-size: clamp(0.75rem, 3.5vw, 1.5rem);
   color: var(--terracotta);
   font-weight: 400;
   white-space: nowrap;
@@ -279,14 +279,14 @@ footer {
   text-align: center;
   padding: 3rem 2rem;
   font-family: 'Pinyon Script', cursive;
-  font-size: clamp(1rem, 4vw, 1.6rem);
+  font-size: clamp(0.75rem, 3.5vw, 1.6rem);
   line-height: 2.2;
   white-space: nowrap;
 }
 
 footer .small {
   font-family: 'Pinyon Script', cursive;
-  font-size: clamp(0.9rem, 3vw, 1.3rem);
+  font-size: clamp(0.7rem, 3vw, 1.3rem);
   color: var(--rose);
   white-space: nowrap;
 }
