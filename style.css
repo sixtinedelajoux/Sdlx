@@ -19,7 +19,6 @@ body {
   font-weight: 300;
 }
 
-/* ---- Typography helpers ---- */
 .label {
   font-family: 'Jost', sans-serif;
   font-size: 0.7rem;
@@ -57,7 +56,6 @@ h3 {
   color: var(--terracotta);
 }
 
-/* ---- HERO ---- */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -75,7 +73,6 @@ h3 {
   font-weight: 300;
 }
 
-/* ---- COUNTDOWN ---- */
 .countdown-section {
   background: var(--dark);
   color: var(--cream);
@@ -123,7 +120,6 @@ h3 {
   padding-top: 0.2rem;
 }
 
-/* ---- GANG ---- */
 .gang-section {
   padding: 6rem 2rem;
   max-width: 1000px;
@@ -174,7 +170,6 @@ h3 {
 
 .polaroid p {
   text-align: center;
-  font-size: 0.8rem;
   color: var(--muted);
   margin-top: 0.8rem;
   font-family: 'Cormorant Garamond', serif;
@@ -182,7 +177,6 @@ h3 {
   font-size: 1rem;
 }
 
-/* Photo upload placeholder */
 .photo-placeholder {
   width: 100%;
   aspect-ratio: 1;
@@ -224,7 +218,6 @@ h3 {
   top: 0; left: 0;
 }
 
-/* ---- VALISE ---- */
 .valise-section {
   background: var(--sand);
   padding: 6rem 2rem;
@@ -236,43 +229,37 @@ h3 {
   margin-right: auto;
 }
 
-.categories {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 2rem;
-  max-width: 900px;
+.valise-bloc {
+  background: var(--cream);
+  padding: 2.5rem;
+  max-width: 600px;
   margin: 0 auto;
 }
 
-.categorie {
-  background: var(--cream);
-  padding: 1.8rem;
-}
-
-.categorie ul {
+.valise-bloc ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 1rem;
 }
 
-.categorie li {
-  font-size: 0.88rem;
+.valise-bloc li {
+  font-size: 0.95rem;
   color: var(--dark);
-  padding-left: 1rem;
+  padding-left: 1.2rem;
   position: relative;
+  line-height: 1.5;
 }
 
-.categorie li::before {
+.valise-bloc li::before {
   content: '—';
   position: absolute;
   left: 0;
   color: var(--terracotta);
   font-size: 0.7rem;
-  top: 0.15em;
+  top: 0.2em;
 }
 
-/* ---- FOOTER ---- */
 footer {
   background: var(--dark);
   color: var(--cream);
@@ -288,7 +275,6 @@ footer .small {
   letter-spacing: 0.1em;
 }
 
-/* ---- Responsive ---- */
 @media (max-width: 600px) {
   .polaroids { flex-direction: column; align-items: center; }
   .polaroid:not(.big) { max-width: 100%; }
