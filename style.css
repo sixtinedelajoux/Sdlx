@@ -236,40 +236,35 @@ h3 {
   margin-right: auto;
 }
 
-.categories {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 2rem;
-  max-width: 900px;
+.valise-bloc {
+  background: var(--cream);
+  padding: 2.5rem;
+  max-width: 600px;
   margin: 0 auto;
 }
 
-.categorie {
-  background: var(--cream);
-  padding: 1.8rem;
-}
-
-.categorie ul {
+.valise-bloc ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 1rem;
 }
 
-.categorie li {
-  font-size: 0.88rem;
+.valise-bloc li {
+  font-size: 0.95rem;
   color: var(--dark);
-  padding-left: 1rem;
+  padding-left: 1.2rem;
   position: relative;
+  line-height: 1.5;
 }
 
-.categorie li::before {
+.valise-bloc li::before {
   content: '—';
   position: absolute;
   left: 0;
   color: var(--terracotta);
   font-size: 0.7rem;
-  top: 0.15em;
+  top: 0.2em;
 }
 
 /* ---- FOOTER ---- */
