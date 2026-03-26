@@ -33,8 +33,9 @@ body {
 h1 {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(3rem, 8vw, 6rem);
-  font-weight: 300;
-  line-height: 1.1;
+  font-weight: 200;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
 }
 
 h1 em {
@@ -45,7 +46,8 @@ h1 em {
 h2 {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(1.8rem, 4vw, 2.5rem);
-  font-weight: 300;
+  font-weight: 200;
+  letter-spacing: -0.02em;
   margin-bottom: 2.5rem;
 }
 
@@ -104,7 +106,8 @@ h3 {
 .unit span {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(3rem, 8vw, 5rem);
-  font-weight: 300;
+  font-weight: 200;
+  letter-spacing: -0.03em;
   line-height: 1;
 }
 
@@ -176,12 +179,12 @@ h3 {
 
 .polaroid p {
   text-align: center;
-  font-size: 0.8rem;
   color: var(--muted);
   margin-top: 0.8rem;
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  font-size: 1rem;
+  font-weight: 300;
+  font-size: 1.1rem;
 }
 
 /* Photo upload placeholder */
