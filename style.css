@@ -3,11 +3,11 @@
 
 :root {
   --cream:     #f5f3f0;
-  --sand:      #e8ddd0;
-  --terracotta:#7aafc2;
-  --rose:      #aacfdf;
-  --dark:      #2e1a0e;
-  --muted:     #8a7a6a;
+  --sand:      #dce8f0;
+  --terracotta:#4a8fa8;
+  --rose:      #7ab8cc;
+  --dark:      #3b1f0a;
+  --muted:     #7a6a5a;
   --lavender:  #ddd4ec;
 }
 
@@ -21,11 +21,10 @@ body {
 }
 
 .label {
-  font-family: 'Jost', sans-serif;
-  font-size: 0.7rem;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 1.4rem;
   font-weight: 400;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+  letter-spacing: 0.02em;
   color: var(--muted);
   margin-bottom: 1rem;
 }
@@ -74,8 +73,8 @@ h3 {
 .subtitle {
   margin-top: 1.5rem;
   font-family: 'Pinyon Script', cursive;
-  font-size: 1.8rem;
-  color: var(--muted);
+  font-size: 2.4rem;
+  color: var(--terracotta);
   font-weight: 400;
 }
 
@@ -176,8 +175,7 @@ h3 {
 
 .polaroid p {
   text-align: center;
-  color: var(--muted);
-  margin-top: 0.8rem;
+  color: var(--muted);  margin-top: 0.8rem;
   font-family: 'Pinyon Script', cursive;
   font-size: 1.6rem;
 }
@@ -273,14 +271,15 @@ footer {
   color: var(--cream);
   text-align: center;
   padding: 3rem 2rem;
-  font-size: 0.9rem;
-  line-height: 2;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 1.8rem;
+  line-height: 2.2;
 }
 
 footer .small {
-  font-size: 0.75rem;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 1.4rem;
   color: var(--rose);
-  letter-spacing: 0.1em;
 }
 
 @media (max-width: 600px) {
