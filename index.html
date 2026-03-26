@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EVJF Anna — Málaga 🌊</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="label">12 — 14 Juin 2026</p>
+    <h1>Anna,<br/><em>on t'emmène</em><br/>à Málaga.</h1>
+    <p class="subtitle">Un week-end rien que pour toi 🤍</p>
+  </section>
+
+  <!-- COUNTDOWN -->
+  <section class="countdown-section">
+    <p class="label">Le grand départ dans</p>
+    <div class="countdown">
+      <div class="unit">
+        <span id="days">--</span>
+        <p>jours</p>
+      </div>
+      <div class="sep">:</div>
+      <div class="unit">
+        <span id="hours">--</span>
+        <p>heures</p>
+      </div>
+      <div class="sep">:</div>
+      <div class="unit">
+        <span id="minutes">--</span>
+        <p>minutes</p>
+      </div>
+      <div class="sep">:</div>
+      <div class="unit">
+        <span id="seconds">--</span>
+        <p>secondes</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GANG -->
+  <section class="gang-section">
+    <p class="label">Le gang</p>
+    <div class="polaroids">
+
+      <!-- Photo principale -->
+      <div class="polaroid big">
+        <div class="photo-placeholder">
+          <input type="file" id="photoUpload" accept="image/*" hidden />
+          <label for="photoUpload" class="upload-label">
+            <span class="plus">+</span>
+            <span>Ajoute votre photo</span>
+          </label>
+          <img id="uploadedPhoto" src="" alt="Notre gang" style="display:none;" />
+        </div>
+        <p>Anna, Pep & moi 🤍</p>
+      </div>
+
+      <!-- Pin Malaga 1 -->
+      <div class="polaroid">
+        <img src="https://images.unsplash.com/photo-1555993539-1732b0258235?w=400&q=80" alt="Malaga vue" />
+        <p>La Alcazaba</p>
+      </div>
+
+      <!-- Pin Malaga 2 -->
+      <div class="polaroid tilt-right">
+        <img src="https://images.unsplash.com/photo-1591011110867-9a2b84f9a5c6?w=400&q=80" alt="Plage Malaga" />
+        <p>La plage ☀️</p>
+      </div>
+
+      <!-- Pin Malaga 3 -->
+      <div class="polaroid tilt-left">
+        <img src="https://images.unsplash.com/photo-1504019347908-b45f9b0b8dd5?w=400&q=80" alt="Tapas" />
+        <p>Les tapas 🍷</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- VALISE -->
+  <section class="valise-section">
+    <p class="label">Dans ta valise</p>
+    <h2>Ce qu'on t'a préparé</h2>
+    <div class="categories">
+
+      <div class="categorie">
+        <h3>☀️ Plage & soleil</h3>
+        <ul>
+          <li>Maillot de bain (ou deux !)</li>
+          <li>Crème solaire SPF 50</li>
+          <li>Chapeau de paille</li>
+          <li>Lunettes de soleil</li>
+          <li>Tapis de plage</li>
+        </ul>
+      </div>
+
+      <div class="categorie">
+        <h3>👗 Tenues</h3>
+        <ul>
+          <li>Robes légères (3-4)</li>
+          <li>Une tenue de soirée</li>
+          <li>Sandales & nu-pieds</li>
+          <li>Kimono ou paréo</li>
+          <li>Gilet léger pour le soir</li>
+        </ul>
+      </div>
+
+      <div class="categorie">
+        <h3>💄 Beauty</h3>
+        <ul>
+          <li>After-sun hydratant</li>
+          <li>Brume parfumée</li>
+          <li>Maquillage naturel</li>
+          <li>Soins cheveux (chaleur !)</li>
+          <li>Trousse de toilette</li>
+        </ul>
+      </div>
+
+      <div class="categorie">
+        <h3>🧳 Essentiels</h3>
+        <ul>
+          <li>Passeport / CNI valide</li>
+          <li>Euros en liquide</li>
+          <li>Chargeur & adaptateur</li>
+          <li>Appareil photo / film</li>
+          <li>Médicaments de base</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Organisé avec 💛 par Pep & moi</p>
+    <p class="small">Anna, on t'aime fort. Viva Málaga !</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
