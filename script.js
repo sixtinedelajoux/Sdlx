@@ -25,16 +25,28 @@ function update() {
 update();
 setInterval(update, 1000);
 
-// Upload photo
-const input    = document.getElementById('photoUpload');
-const preview  = document.getElementById('uploadedPhoto');
-const label    = document.querySelector('.upload-label');
+// Upload photo + persistance localStorage
+const input   = document.getElementById('photoUpload');
+const preview = document.getElementById('uploadedPhoto');
+const label   = document.querySelector('.upload-label');
+
+function showPhoto(src) {
+  preview.src = src;
+  preview.style.display = 'block';
+  label.style.display   = 'none';
+}
+
+// Charger la photo sauvegardée si elle existe
+const saved = localStorage.getItem('brideSqdPhoto');
+if (saved) showPhoto(saved);
 
 input.addEventListener('change', (e) => {
   const file = e.target.files[0];
   if (!file) return;
-  const url = URL.createObjectURL(file);
-  preview.src = url;
-  preview.style.display = 'block';
-  label.style.display   = 'none';
+  const reader = new FileReader();
+  reader.onload = (ev) => {
+    localStorage.setItem('brideSqdPhoto', ev.target.result);
+    showPhoto(ev.target.result);
+  };
+  reader.readAsDataURL(file);
 });
