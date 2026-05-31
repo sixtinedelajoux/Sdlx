@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EVJF Anna — Málaga 🌊</title>
+  <title>EVJF Anna</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,300;0,6..96,400;1,6..96,300;1,6..96,400&family=Pinyon+Script&family=Jost:wght@300;400&display=swap" rel="stylesheet" />
 </head>
@@ -48,7 +48,12 @@
 
       <div class="polaroid big">
         <div class="photo-placeholder">
-          <img src="IMG_1590.jpeg" alt="Anna's Bride Squad" />
+          <input type="file" id="photoUpload" accept="image/*" hidden />
+          <label for="photoUpload" class="upload-label">
+            <span class="plus">+</span>
+            <span>Ajoute votre photo</span>
+          </label>
+          <img id="uploadedPhoto" src="" alt="Notre gang" style="display:none;" />
         </div>
         <p>Anna's Bride Squad</p>
       </div>
